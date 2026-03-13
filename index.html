@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Localizador de Caixas</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>Buscar Caixa</h1>
+
+<select id="setor">
+<option value="todos">Buscar caixas</option>
+<option value="pe">PE</option>
+<option value="pd">PD</option>
+<option value="pb">PB</option>
+<option value="g3">G3</option>
+<option value="g4">G4</option>
+<option value="pc">PC</option>
+<option value="pa">PA</option>
+<option value="gw">GW</option>
+<option value="wm">WM</option>
+
+</select>
+
+<input type="number" id="numeroCaixa" placeholder="Número da caixa">
+
+<button onclick="buscarCaixa()">
+Buscar
+</button>
+
+<div id="resultado"></div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
